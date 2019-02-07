@@ -22,7 +22,7 @@ favoriteFoods.forEach(food => {
     // Iterate all of the values of the current visit
     for (const foody of Object.entries(eachFood)) {
         console.log(foody)
-        outputElement.innerHTML += `<div>${foody[0]}: ${foody[1]}</div>`
+        outputElement.innerHTML += `<div><br>${foody[0]}: ${foody[1]}</div>`
     }
 })
 
